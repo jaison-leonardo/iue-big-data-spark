@@ -1,0 +1,42 @@
+# =========================================================================
+# CLASIFICACIÓN MÉDICA CNN - GITHUB IGNORE RULES
+# =========================================================================
+
+# 1. Seguridad (¡NUNCA SUBIR!)
+# Protege completamente tus credenciales de Twilio
+.env
+.env.*
+
+# 2. Archivos Pesados de Machine Learning / Datasets
+# GitHub Bloquea archivos muy grandes y las imágenes agotan la cuota rápido.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# 3. Modelos y Pesos Compilados
+# Suelen superar los límites de peso de GitHub. Es mejor entrenarlos en destino.
+models/*.keras
+models/*.h5
+models/*.hdf5
+models/*.png
+
+# 4. Excepciones que SÍ queremos que se suban de la carpeta Models
+!models/classes.json
+!models/.gitkeep
+
+# 5. Entornos Virtuales y Python
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+
+# 6. Jupyter Notebooks y Sistema Operativo
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+Desktop.ini

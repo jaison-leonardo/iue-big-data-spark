@@ -1,0 +1,92 @@
+Arrancando proceso de entrenamiento con Data Augmentation en línea...
+Epoch 1/15
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 0s 194ms/step - accuracy: 0.6069 - loss: 0.8204  
+Epoch 1: val_accuracy improved from None to 0.75020, saving model to models/model.keras
+
+Epoch 1: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 225s 203ms/step - accuracy: 0.7086 - loss: 0.6316 - val_accuracy: 0.7502 - val_loss: 0.5022
+Epoch 2/15
+   1/1093 ━━━━━━━━━━━━━━━━━━━━ 3:18 182ms/step - accuracy: 0.4375 - loss: 0.7275C:\Users\Jaison Arboleda\AppData\Roaming\Python\Python312\site-packages\keras\src\trainers\epoch_iterator.py:116: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self._interrupted_warning()
+
+Epoch 2: val_accuracy improved from 0.75020 to 0.75740, saving model to models/model.keras
+
+Epoch 2: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 9s 8ms/step - accuracy: 0.4375 - loss: 0.7275 - val_accuracy: 0.7574 - val_loss: 0.4690
+Epoch 3/15
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 0s 187ms/step - accuracy: 0.7996 - loss: 0.4600  
+Epoch 3: val_accuracy improved from 0.75740 to 0.84831, saving model to models/model.keras
+
+Epoch 3: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 214s 195ms/step - accuracy: 0.8265 - loss: 0.4120 - val_accuracy: 0.8483 - val_loss: 0.3404
+Epoch 4/15
+   1/1093 ━━━━━━━━━━━━━━━━━━━━ 3:21 185ms/step - accuracy: 0.7500 - loss: 0.8170
+Epoch 4: val_accuracy improved from 0.84831 to 0.86750, saving model to models/model.keras
+
+Epoch 4: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 9s 8ms/step - accuracy: 0.7500 - loss: 0.8170 - val_accuracy: 0.8675 - val_loss: 0.3047
+Epoch 5/15
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 0s 189ms/step - accuracy: 0.8836 - loss: 0.3027  
+Epoch 5: val_accuracy improved from 0.86750 to 0.90269, saving model to models/model.keras
+
+Epoch 5: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 216s 197ms/step - accuracy: 0.8893 - loss: 0.2979 - val_accuracy: 0.9027 - val_loss: 0.2210
+Epoch 6/15
+   1/1093 ━━━━━━━━━━━━━━━━━━━━ 3:09 173ms/step - accuracy: 0.9375 - loss: 0.2099
+Epoch 6: val_accuracy improved from 0.90269 to 0.90376, saving model to models/model.keras
+
+Epoch 6: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 9s 8ms/step - accuracy: 0.9375 - loss: 0.2099 - val_accuracy: 0.9038 - val_loss: 0.2215
+Epoch 7/15
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 0s 190ms/step - accuracy: 0.9084 - loss: 0.2548  
+Epoch 7: val_accuracy did not improve from 0.90376
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 217s 198ms/step - accuracy: 0.9063 - loss: 0.2524 - val_accuracy: 0.8942 - val_loss: 0.2604
+Epoch 8/15
+   1/1093 ━━━━━━━━━━━━━━━━━━━━ 3:11 176ms/step - accuracy: 1.0000 - loss: 0.0318
+Epoch 8: val_accuracy did not improve from 0.90376
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 9s 8ms/step - accuracy: 1.0000 - loss: 0.0318 - val_accuracy: 0.8944 - val_loss: 0.2664
+Epoch 9/15
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 0s 187ms/step - accuracy: 0.9205 - loss: 0.2093  
+Epoch 9: val_accuracy improved from 0.90376 to 0.94028, saving model to models/model.keras
+
+Epoch 9: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 214s 196ms/step - accuracy: 0.9232 - loss: 0.2036 - val_accuracy: 0.9403 - val_loss: 0.1584
+Epoch 10/15
+   1/1093 ━━━━━━━━━━━━━━━━━━━━ 3:05 170ms/step - accuracy: 0.6250 - loss: 0.9027
+Epoch 10: val_accuracy did not improve from 0.94028
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 9s 8ms/step - accuracy: 0.6250 - loss: 0.9027 - val_accuracy: 0.9048 - val_loss: 0.2174
+Epoch 11/15
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - accuracy: 0.9261 - loss: 0.1939  
+Epoch 11: val_accuracy did not improve from 0.94028
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 214s 196ms/step - accuracy: 0.9326 - loss: 0.1788 - val_accuracy: 0.9315 - val_loss: 0.2096
+Epoch 12/15
+   1/1093 ━━━━━━━━━━━━━━━━━━━━ 3:07 172ms/step - accuracy: 1.0000 - loss: 0.0203
+Epoch 12: val_accuracy did not improve from 0.94028
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 9s 8ms/step - accuracy: 1.0000 - loss: 0.0203 - val_accuracy: 0.9304 - val_loss: 0.2201
+Epoch 13/15
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 0s 187ms/step - accuracy: 0.9385 - loss: 0.1615  
+Epoch 13: val_accuracy improved from 0.94028 to 0.94561, saving model to models/model.keras
+
+Epoch 13: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 214s 195ms/step - accuracy: 0.9393 - loss: 0.1610 - val_accuracy: 0.9456 - val_loss: 0.1547
+Epoch 14/15
+   1/1093 ━━━━━━━━━━━━━━━━━━━━ 3:08 173ms/step - accuracy: 0.9375 - loss: 0.1545
+Epoch 14: val_accuracy did not improve from 0.94561
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 9s 8ms/step - accuracy: 0.9375 - loss: 0.1545 - val_accuracy: 0.9451 - val_loss: 0.1541
+Epoch 15/15
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 0s 188ms/step - accuracy: 0.9497 - loss: 0.1374
+Epoch 15: val_accuracy improved from 0.94561 to 0.96348, saving model to models/model.keras
+
+Epoch 15: finished saving model to models/model.keras
+1093/1093 ━━━━━━━━━━━━━━━━━━━━ 215s 196ms/step - accuracy: 0.9505 - loss: 0.1318 - val_accuracy: 0.9635 - val_loss: 0.0921
+Restoring model weights from the end of the best epoch: 15.
+Exportando gráfica de resultados a models/model.png...
+Evaluando desempeño absoluto en el Set de Prueba (Test)...
+----------------------------------------
+### RESULTADOS FINALES DE EVALUACIÓN ###
+-> Test Loss: 0.0907
+-> Test Accuracy: 0.9608 (96.08%)
+----------------------------------------
+Se ha consolidado el entrenamiento. El modelo base espera inferencias en models/model.keras
+
+Presiona ENTER para volver al menú... 
