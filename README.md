@@ -3,7 +3,7 @@
 ## Descripción del Proyecto
 Este ecosistema resuelve un problema completo de Big Data e Inteligencia Artificial orientado a predecir enfermedades (ej. Cáncer de Pulmón y Colon) a través de imágenes histopatológicas. 
 
-Consta de una Red Neuronal Convolucional (CNN) programada en Keras/TensorFlow, un pipeline de Data Augmentation y compresión de arreglos NumPy para un manejo muy eficiente de la memoria RAM, una interfaz web visual generada maravillosamente con **Gradio**, y un sistema de notificaciones de dictamen médico en tiempo real vía SMS propulsado por **Twilio**.
+Consta de una Red Neuronal Convolucional (CNN) programada en Keras/TensorFlow, un pipeline de Data Augmentation y compresión de arreglos NumPy en memoria RAM, una interfaz web visual construida con **Gradio**, y un sistema de notificaciones vía SMS propulsado por **Twilio**.
 
 ---
 
